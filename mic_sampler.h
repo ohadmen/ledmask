@@ -4,7 +4,7 @@
 class MicSampler
 {
     static constexpr int PORT = 0;
-    static constexpr int SAMPLE_WIN_MSEC = 50;
+    static constexpr int SAMPLE_WIN_MSEC = 100;
 
     unsigned long m_startMillis;
     unsigned int m_signalMax;
